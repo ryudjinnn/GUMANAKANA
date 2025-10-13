@@ -188,12 +188,12 @@ video {
 
 @media (max-width: 600px) {
   html, body {
+    margin: 0 !important;
+    padding: 0 !important;
     width: 100vw !important;
     height: 100vh !important;
     min-width: 100vw !important;
     min-height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
     background: #000 !important;
     overflow: hidden !important;
   }
@@ -207,9 +207,9 @@ video {
     min-height: 100vh !important;
     max-width: 100vw !important;
     max-height: 100vh !important;
-    border-radius: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
+    border-radius: 0 !important;
     box-shadow: none !important;
     background: #000 !important;
   }
@@ -219,8 +219,8 @@ video {
     height: 100vh !important;
     object-fit: cover !important;
     border-radius: 0 !important;
-    display: block;
     background: #000 !important;
+    display: block;
   }
 
   .video-counter,
@@ -231,11 +231,6 @@ video {
     z-index: 10;
   }
 
-  .video-counter {
-    right: 10px;
-    bottom: 10px;
-  }
-
   .video-label {
     left: 0;
     right: 0;
@@ -244,7 +239,12 @@ video {
     font-size: 1.3rem;
     margin: 0;
     padding: 0.7rem 0 0.4rem 0;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0,0,0,0.28);
+  }
+
+  .video-counter {
+    right: 10px;
+    bottom: 10px;
   }
 
   .swipe-hint {

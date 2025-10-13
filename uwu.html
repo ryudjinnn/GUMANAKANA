@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulationnnn</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="logo">Toktik</span>
+    </header>
+    <main>
+      <div class="video-frame">
+        <video id="videoPlayer" playsinline controls autoplay muted></video>
+        <div class="video-counter" id="videoCounter"></div>
+        <div class="swipe-hint" id="swipeHint">Swipe up/down to navigate</div>
+      </div>
+      <div class="video-label" id="videoLabel"></div>
+      <button id="submitBtn" class="submit-btn">Submit to Google Form</button>
+    </main>
+    <div class="welcome-overlay" id="welcomeOverlay">
+      <div class="welcome-message">
+        <h2>Hello!</h2>
+        <p>
+          Please scroll (swipe up) as if you're relaxed/bored trying to pass the time.<br><br>
+          <b>Swipe up to start.</b>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
